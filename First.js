@@ -4,4 +4,4 @@ c=a+b
 console.log(c)
 
  
-console.log(10%3)
+
