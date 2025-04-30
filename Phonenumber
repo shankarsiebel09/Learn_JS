@@ -1,0 +1,13 @@
+function setDefaultPhoneNumber(executionContext) {
+    var formContext = executionContext.getFormContext();
+
+    // Only run on create form
+    if (formContext.ui.getFormType() === 1) { // 1 = Create
+        var phoneField = formContext.getAttribute("telephone1");
+        
+        // Check if phone is empty before setting
+        if (phoneField && !phoneField.getValue()) {
+            phoneField.setValue("123-456-7890"); // Default phone number
+        }
+    }
+}
