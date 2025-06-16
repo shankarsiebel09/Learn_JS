@@ -92,6 +92,7 @@
 // console.log(x%=3)
 
 //5. Conditional Operators:
+//if the condition is 'TRUE' it will pick 'X value' / if the codition is 'FALSE' it will pick the 'Y Value'
 // x="king"
 // y="Queen"
 // z= 2==2 ? x:y
@@ -121,9 +122,10 @@
 // console.log(K)
 
 //6.Coersion
+//Here autometocally Number got converted into string this is call 'Coersion'
 // adsn=30+"50"
 // console.log(adsn) //-->3050(string)(automatically number got converted ito strong)
 
 // console.log("KING"+100)   //-->KING100(automatically number got converted ito strong)
 
-// console.log(100+200+300+"505"+600+700)
+// console.log(10+20+30+"50"+60+70)       //60506070
